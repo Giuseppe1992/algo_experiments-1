@@ -168,7 +168,7 @@ def merged_hadoop_box():
 
     bx = ax.boxplot(data)
     set_box_color(bx,"blue")
-    plt.ylabel(r'\textbf{Job Completition Time [Seconds]}', fontsize=12)
+    plt.ylabel(r'\textbf{Job Completion Time [Seconds]}', fontsize=12)
     plt.xlabel(r'\textbf{Algorithm}', fontsize=12)
     plt.grid(True)
     plt.tick_params(axis='both', labelsize=16)
